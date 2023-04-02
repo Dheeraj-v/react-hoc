@@ -4,7 +4,7 @@ import HoverCounter from './HoverCounter';
 function App() {
   return (
     <div className="App">
-     <ClickCounter/>
+     <ClickCounter name = 'btncomponent' otherProps = 'dsad'/>
      <HoverCounter/>
     </div>
   );
